@@ -3,7 +3,6 @@ use serde::Deserialize;
 #[derive(Deserialize, Debug)]
 struct Point {
     lon: f64,
-    lat: f64,
     category: String,
 }
 
